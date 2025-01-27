@@ -1,0 +1,161 @@
+body {
+    /* background-color:rgb(252, 234, 211); */
+    /* font-size: 20px; */
+    color: rgb(252, 234, 211);
+    /* padding-left: 50px;
+    padding-right:50px */
+}
+
+.schachmuster {
+    background-color: rgb(252, 234, 211);
+    /* width: 100vw ; */
+    height: 20vh;
+    margin-left: 10vw;
+    margin-right: 10vw
+}
+
+.box {
+    background-color: rgb(236, 184, 223);
+    height: 2vh;
+    margin-left: 10vw;
+    margin-right: 10vw
+}
+
+.box2 {
+    background-color: rgb(90, 112, 75);
+    width: 15vw;
+    height: 40vh;
+    margin-left: 10vw;
+    margin-right: 10vw
+}
+
+.box3 {
+    background-color: rgb(212, 157, 205);
+    margin-top: -26.6vw;
+    width: 49vw;
+    height: 40vh;
+    margin-left: 25vw;
+    margin-right: 10vw;
+    display: flex;
+    /* justify-content: center;
+    align-items: center;   */
+    font: 1em Cambria;
+
+}
+
+.h2 {
+    text-align: center;
+    margin: 50px;
+    padding-top: 10px;
+    padding-bottom: 70px;
+}
+
+.liste1 {
+    list-style: none;
+}
+
+.text-about-me {
+    margin-left: 120px;
+    margin-top: 50px;
+    color: rgb(34, 63, 30)
+}
+
+.text-page {
+    margin-left: 220px;
+    color: rgb(34, 63, 30)
+}
+
+.box4 {
+    background-color: rgb(90, 112, 75);
+    margin-top: -26.6vw;
+    width: 15vw;
+    height: 40vh;
+    margin-left: 73.9vw;
+    margin-right: 30vw
+}
+
+.box5 {
+    background-color: rgb(236, 184, 223);
+    height: 2vh;
+    margin-left: 10vw;
+    margin-right: 10vw
+}
+
+.schachmuster2 {
+    background-color: rgb(252, 234, 211);
+    /* width: 100vw ; */
+    /* margin-bottom: -50vh; */
+    height: 20vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    color: rgb(51, 97, 45);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-schrift{
+    font-size: 2rem;
+}
+.button-link{
+    text-decoration: none;
+    color: rgb(247, 247, 247);
+}
+
+
+.button-navbar {
+    font-family: Cambria;
+    /* font-size: x-small; */
+    color: rgb(247, 247, 247);
+    border-radius: 50%;
+    border-color: rgb(62, 114, 67);
+    border-bottom-color: rgb(143, 212, 150);
+    border-right-color: rgb(105, 202, 92);
+    background-color: rgb(64, 128, 56);
+    border-width: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10vh;
+    padding-top: 10px;
+
+}
+
+.button-navbar1 {
+    font-family: Cambria;
+    font-size: x-small;
+    color: rgb(247, 247, 247);
+    border-radius: 50%;
+    border-color: rgb(62, 114, 67);
+    border-bottom-color: rgb(143, 212, 150);
+    border-right-color: rgb(105, 202, 92);
+    background-color: rgb(64, 128, 56);
+    border-width: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10vh;
+    margin-left: 10vh;
+    padding-top: 10px;
+
+}
+
+.button-navbar2 {
+    font-family: Cambria;
+    font-size: x-small;
+    color: rgb(247, 247, 247);
+    border-radius: 50%;
+    border-color: rgb(62, 114, 67);
+    border-bottom-color: rgb(143, 212, 150);
+    border-right-color: rgb(105, 202, 92);
+    background-color: rgb(64, 128, 56);
+    border-width: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10vh;
+    margin-left: 10vh;
+    padding-top: 10px;
+
+}
