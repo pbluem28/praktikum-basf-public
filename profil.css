@@ -1,0 +1,79 @@
+.seite {
+    background-color: rgb(253, 243, 230);
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 3vh;
+}
+
+.steckbriefb {
+    /* display:list-item; */
+    justify-content: right;
+    align-items: right;
+    /* margin-left: 110vh; */
+    margin-top: 5vh;
+    font-family: Cambria;
+    /* background-color: rgb(245, 206, 242); */
+    /* border-radius: 5%; */
+}
+
+.col-lg {
+    background-color: rgb(245, 206, 242);
+    border-radius: 5%;
+
+
+}
+
+.heading {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    /* margin-right: 10vh;
+    margin-left: 10vh; */
+    padding-top: 10px;
+    font-family: Cambria;
+    font-weight: bold;
+    color: rgb(62, 114, 67);
+    margin-bottom: 10vh;
+}
+
+.schrift {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    margin-left: 10vh;
+    font-family: Cambria;
+    font-weight: bold;
+    color: rgb(62, 114, 67);
+    margin-top: 5vh;
+
+}
+
+.placeholder {
+    /* margin-left: 5vw;
+margin-right: 5vw; */
+    /* padding-right: 5vw; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: 284120;
+}
+
+.rounded {
+    max-width: 5vw;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    margin-right: 30vw;
+}
+
+.position-relative {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+
+.herz {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
