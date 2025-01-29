@@ -1,0 +1,87 @@
+.seite {
+    margin-left: 10vw;
+    margin-right: 10vw;
+    background-color: rgb(253, 243, 230);
+}
+
+.heading {
+    font-family: Cambria;
+    font-weight: bold;
+    color: rgb(62, 114, 67);
+    margin-top: 5px;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+
+.rounded {
+    max-width: 5vw;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    margin-right: 30vw;
+}
+
+.placeholder {
+    /* margin-left: 5vw;
+    margin-right: 5vw; */
+    /* padding-right: 5vw; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(214, 157, 219);
+}
+
+.schrift1 {
+    font-size: 1.3rem;
+    font-family: Cambria;
+    font-weight: bold;
+    color: rgb(47, 83, 51);
+    margin-bottom: 3vh;
+}
+
+.bild1 {
+    max-width: 20vw;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    margin-right: 15vw;
+}
+
+.schrift2 {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    
+}
+
+.bild2 {
+    max-width: 20vw;
+    max-height: 30vh;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    margin-right: 15vw;
+    /* padding-top: 5vh;
+    padding-bottom: 5vh; */
+}
+
+.schrift3 {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+.bild3 {
+    max-width: 30vw;
+    max-height: 30vh;
+    /* max-block-size: 20vw 20vh; */
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    
+}
+.schrift4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
