@@ -1,7 +1,7 @@
 .seite {
     margin-left: 10vw;
     margin-right: 10vw;
-    margin-top: 3vh;
+    margin-top: 5vh;
     background-color: rgb(253, 243, 230);
 }
 
@@ -55,6 +55,7 @@ td{
 }
 
 .schrift2 {
+    font-size: 0.9rem;
     display: flex;
     justify-content: left;
     align-items: left;
@@ -73,6 +74,7 @@ td{
 }
 
 .schrift3 {
+    font-size: 0.9rem;
     display: flex;
     justify-content: left;
     align-items: left;
@@ -87,6 +89,7 @@ td{
     
 }
 .schrift4 {
+    font-size: 0.9rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -94,7 +97,7 @@ td{
 .dings{
     display: flex;
     justify-content: left;
-    align-items: left; 
+    align-items:center; 
 }
 
 #menuToggle {

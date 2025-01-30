@@ -1,47 +1,90 @@
 .seite {
     /* background-color:rgb(252, 234, 211); */
     /* font-size: 20px; */
-    background-color: rgb(252, 234, 211);
+    background-color: rgb(253, 243, 230);
+    margin-top: 5vhs;
+
     /* padding-left: 50px;
     padding-right:50px */
 }
+.placeholder{
+    color:  rgb(212, 157, 205);
+}
 
 .schachmuster {
-    background-color: rgb(252, 234, 211);
+    background-color: rgb(253, 243, 230);
     /* width: 100vw ; */
     height: 20vh;
     margin-left: 10vw;
     margin-right: 10vw
+}
+.bild1{
+    margin-left: 10vw;
+    margin-right: 10vw;
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    width: 79.5vw;
+    
+    
 }
 
 .box {
     background-color: rgb(236, 184, 223);
     height: 2vh;
     margin-left: 10vw;
-    margin-right: 10vw
+    margin-right: 10vw;
+
 }
 
 .box2 {
     background-color: rgb(90, 112, 75);
     width: 15vw;
     height: 40vh;
-    margin-left: 10vw;
-    margin-right: 10vw
+    /* margin-left: 10vw;
+    margin-right: 10vw */
 }
 
 .box3 {
     background-color: rgb(212, 157, 205);
-    margin-top: -26.6vw;
+    /* margin-top: -26.6vw; */
     width: 49vw;
     height: 40vh;
-    margin-left: 25vw;
-    margin-right: 10vw;
+    /* margin-left: 25vw;
+    margin-right: 10vw; */
     display: flex;
     /* justify-content: center;
     align-items: center;   */
     font: 1em Cambria;
 
 }
+tr{
+    margin-left: 10vw;
+    margin-right: 10vw;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    max-width: 20vw ;
+    
+}
+.o{
+   
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-align: center;
+    margin-left:2vw ;
+    margin-right: 2vw;
+}
+tbody{
+    display: flex;
+    justify-content:left;
+    align-items: center;
+}
+/* .p{
+    background-color:  rgb(212, 157, 205) ;
+    width: max-content; */
+/* } */
 
 .h2 {
     text-align: center;
@@ -67,11 +110,11 @@
 
 .box4 {
     background-color: rgb(90, 112, 75);
-    margin-top: -26.6vw;
+    /* margin-top: -26.6vw; */
     width: 15vw;
     height: 40vh;
-    margin-left: 73.9vw;
-    margin-right: 30vw
+    /* margin-left: 73.9vw;
+    margin-right: 30vw */
 }
 
 .box5 {
@@ -82,7 +125,7 @@
 }
 
 .schachmuster2 {
-    background-color: rgb(252, 234, 211);
+    background-color: rgb(253, 243, 230);
     /* width: 100vw ; */
     /* margin-bottom: -50vh; */
     height: 20vh;
@@ -117,9 +160,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-right: 10vh;
     margin-left: 10vh;
     padding-top: 10px;
+    transition: transform 0.3s;
 
+}
+.button-navbar:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    transform: translateY(-10px);
+    background-color:  rgb(69, 116, 42);
+    
+    
 }
 
 .button-navbar1 {
@@ -138,6 +190,13 @@
     margin-right: 10vh;
     margin-left: 10vh;
     padding-top: 10px;
+    transition: transform 0.3s;
+
+}
+.button-navbar1:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    transform: translateY(-10px);
+    background-color:  rgb(69, 116, 42);
 
 }
 
@@ -157,8 +216,18 @@
     margin-right: 10vh;
     margin-left: 10vh;
     padding-top: 10px;
+    transition: transform 0.3s;
 
+}
+.button-navbar2:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    transform: translateY(-10px);
+    background-color:  rgb(69, 116, 42);
 }
 .button-schrift1{
     font-size: 3rem;
+}
+table{
+    width: 100vw;
+    height: 200wh;
 }

@@ -19,16 +19,24 @@
 .col-lg {
     background-color: rgb(245, 206, 242);
     border-radius: 5%;
+    padding-top: 1.5vh;
 
 
 }
-
+.box1{
+   background-color:  rgb(224, 201, 171); ;
+    width: 25vw;
+    height: 40vh;
+    margin-left: 6vw;
+    margin-top: 3vw;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
 
 
 .heading {
     display: flex;
     justify-content:center;
-    align-items: left;
+    align-items: center;
     /* margin-right: 10vh;
     margin-left: 10vh; */
     padding-top: 10px;
@@ -36,7 +44,7 @@
     font-weight: bold;
     color: rgb(62, 114, 67);
     margin-bottom: 10vh;
-    margin-left: 10vw;
+    /* margin-left: 10vw; */
 }
 
 .schrift {
@@ -46,8 +54,9 @@
     margin-left: 10vh;
     font-family: Cambria;
     font-weight: bold;
+    font-size: 1.3rem;
     color: rgb(62, 114, 67);
-    margin-top: 5vh;
+    margin-top: 2vh;
 
 }
 
