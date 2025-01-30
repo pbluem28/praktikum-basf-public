@@ -59,19 +59,19 @@ margin-right: 5vw; */
     color: 284120;
 }
 
-.rounded {
+/* .rounded {
     max-width: 5vw;
     display: flex;
     justify-content: left;
     align-items: left;
     margin-right: 30vw;
-}
+} */
 
-.position-relative {
+/* .position-relative {
     display: flex;
     justify-content: left;
-    align-items: left;
-}
+    align-items: left; */
+/* } */
 
 .herz {
     display: flex;
@@ -194,4 +194,10 @@ margin-right: 5vw; */
 #menuToggle input:checked ~ ul
 {
   transform: none;
+}
+
+.herz {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
 }
