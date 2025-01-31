@@ -7,6 +7,17 @@
     /* padding-left: 50px;
     padding-right:50px */
 }
+@keyframes slideInTop {
+   from{
+       transform: translateY(-80px)
+
+   }
+    to{
+        transform: translateY(0)
+    }
+   
+}
+
 .placeholder{
     color:  rgb(212, 157, 205);
 }
@@ -75,21 +86,31 @@ tr{
     text-align: center;
     margin-left:2vw ;
     margin-right: 2vw;
+    animation-name: slideInTop;
+    animation-duration: 1s ;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count:1 ;
+    animation-direction:normal ;
+    animation-fill-mode:none ;
+   
 }
 tbody{
     display: flex;
     justify-content:left;
     align-items: center;
+    
+    
 }
 /* .p{
     background-color:  rgb(212, 157, 205) ;
     width: max-content; */
 /* } */
 
-.h2 {
+.h1 {
     text-align: center;
     margin: 50px;
-    padding-top: 10px;
+    margin-top: 4vh;
     padding-bottom: 70px;
 }
 
@@ -188,7 +209,7 @@ tbody{
     justify-content: center;
     align-items: center;
     margin-right: 10vh;
-    margin-left: 10vh;
+    margin-left: 11vh;
     padding-top: 10px;
     transition: transform 0.3s;
 
@@ -214,7 +235,7 @@ tbody{
     justify-content: center;
     align-items: center;
     margin-right: 10vh;
-    margin-left: 10vh;
+    margin-left: 11vh;
     padding-top: 10px;
     transition: transform 0.3s;
 
@@ -225,7 +246,9 @@ tbody{
     background-color:  rgb(69, 116, 42);
 }
 .button-schrift1{
-    font-size: 3rem;
+    font-size: 3.5rem;
+    margin-top:4vh;
+
 }
 table{
     width: 100vw;

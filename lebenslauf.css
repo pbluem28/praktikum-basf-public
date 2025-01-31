@@ -3,6 +3,25 @@
     margin-left: 10vw;
     margin-right: 10vw;
     margin-top: 5vh;
+    
+}
+@keyframes slideInLeft {
+  from {
+      transform: translateX(-400px);
+  
+  }
+  to {
+      transform: translateX(0)
+  }
+}
+@keyframes slideInRight {
+  from {
+      transform: translateX(600px);
+  
+  }
+  to {
+      transform: translateX(0)
+  }
 }
 
 .heading {
@@ -22,11 +41,25 @@
     font-weight: bold;
     margin-bottom: 5vh;
     padding-top: 2vh;
+    animation-name: slideInLeft;
+    animation-duration: 1s ;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count:1 ;
+    animation-direction:normal ;
+    animation-fill-mode:none ;
 }
 
 td {
     text-align: left;
     margin-right: 8px;
+    animation-name: slideInRight;
+    animation-duration: 1s ;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count:1 ;
+    animation-direction:normal ;
+    animation-fill-mode:none ;
 }
 
 .rounded {

@@ -3,8 +3,44 @@
     margin-right: 10vw;
     margin-top: 5vh;
     background-color: rgb(253, 243, 230);
+    
 }
-
+@keyframes slideInLeft {
+    from {
+        transform: translateX(-400px);
+    
+    }
+    to {
+        transform: translateX(0)
+    }
+}
+@keyframes slideInRight {
+    from {
+        transform: translateX(600px);
+    
+    }
+    to {
+        transform: translateX(0)
+    }
+}
+.col-lg{
+    animation-name: slideInLeft;
+    animation-duration: 1s ;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count:1 ;
+    animation-direction:normal ;
+    animation-fill-mode:none ;
+}
+.col-sm{
+    animation-name: slideInRight;
+    animation-duration: 1s ;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count:1 ;
+    animation-direction:normal ;
+    animation-fill-mode:none ;
+}
 .heading {
     font-family: Cambria;
     font-weight: bold;
@@ -44,6 +80,7 @@
 }
 td{
     margin-top: 5vh;
+    
 }
 
 .bild1 {
@@ -52,6 +89,7 @@ td{
     justify-content: left;
     align-items: left;
     margin-right: 15vw;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
 .schrift2 {
@@ -69,6 +107,8 @@ td{
     justify-content: right;
     align-items: right;
     margin-right: 15vw;
+    zoom: 105%;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     /* padding-top: 5vh;
     padding-bottom: 5vh; */
 }
@@ -80,13 +120,14 @@ td{
     align-items: left;
 }
 .bild3 {
-    max-width: 30vw;
+    max-width: 35vw;
     max-height: 30vh;
     /* max-block-size: 20vw 20vh; */
     display: flex;
     justify-content: right;
     align-items: right;
-    
+    zoom: 115%;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 .schrift4 {
     font-size: 0.9rem;

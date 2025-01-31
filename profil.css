@@ -3,6 +3,25 @@
     /* margin-left: 10vw;
     margin-right: 10vw; */
     margin-top: 3vh;
+    
+}
+@keyframes slideInLeft {
+    from {
+        transform: translateX(-400px);
+    
+    }
+    to {
+        transform: translateX(0)
+    }
+}
+@keyframes slideInRight {
+    from {
+        transform: translateX(600px);
+    
+    }
+    to {
+        transform: translateX(0)
+    }
 }
 
 .steckbriefb {
@@ -15,14 +34,32 @@
     /* background-color: rgb(245, 206, 242); */
     /* border-radius: 5%; */
 }
+.col{
+    animation-name: slideInLeft;
+    animation-duration: 1s ;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count:1 ;
+    animation-direction:normal ;
+    animation-fill-mode:none ;
+}
 
-.col-lg {
+.col-md {
     background-color: rgb(245, 206, 242);
     border-radius: 5%;
     padding-top: 1.5vh;
+    border-width: 5vh;
+    animation-name: slideInRight;
+    animation-duration: 1s ;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count:1 ;
+    animation-direction:normal ;
+    animation-fill-mode:none ;
 
 
 }
+
 .box1{
    background-color:  rgb(224, 201, 171); ;
     width: 25vw;
